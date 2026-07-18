@@ -2,10 +2,10 @@
 
 Claude / Agent **skills** library by **Poorvith M P**.
 
-- Version: **v0.1**
+- Version: **v0.2**
 - Last updated: **July 2026**
 - License: **MIT**
-- Skills in this repo: **81**
+- Skills in this repo: **88**
 
 Part of the **[open-claude-skills](https://github.com/prvthmpcypher/open-claude-skills)** multi-repo hub.
 
@@ -30,6 +30,7 @@ Zip a single `skills/<skill-id>` folder and upload via **Settings → Capabiliti
 | `accessibility-checker` | Accessibility Checker |
 | `ai-data-remediation-engineer` | AI Data Remediation Engineer |
 | `ai-engineer` | AI Engineer |
+| `android-developer` | Android Developer |
 | `api-doc-writer` | API Doc Writer |
 | `api-mock-generator` | API Mock Generator |
 | `api-tester` | API Tester |
@@ -39,6 +40,7 @@ Zip a single `skills/<skill-id>` folder and upload via **Settings → Capabiliti
 | `blockchain-security-auditor` | Blockchain Security Auditor |
 | `bug-explainer` | Bug Explainer |
 | `changelog-writer` | Changelog Writer |
+| `ci-cd-pipeline-builder` | CI/CD Pipeline Builder |
 | `cloud-security-architect` | Cloud Security Architect |
 | `cms-developer` | CMS Developer |
 | `code-comment-writer` | Code Comment Writer |
@@ -53,6 +55,7 @@ Zip a single `skills/<skill-id>` folder and upload via **Settings → Capabiliti
 | `data-engineer` | Data Engineer |
 | `database-optimizer` | Database Optimizer |
 | `database-schema-designer` | Database Schema Designer |
+| `dependency-upgrade-auditor` | Dependency Upgrade Auditor |
 | `deployment-checklist` | Deployment Checklist |
 | `devops-automator` | DevOps Automator |
 | `drupal-shopping-cart` | Drupal Shopping Cart |
@@ -66,9 +69,13 @@ Zip a single `skills/<skill-id>` folder and upload via **Settings → Capabiliti
 | `frontend-developer` | Frontend Developer |
 | `git-commit-writer` | Git Commit Writer |
 | `git-workflow-master` | Git Workflow Master |
+| `graphql-api-designer` | GraphQL API Designer |
+| `iac-provisioner` | Infrastructure-as-Code Provisioner |
 | `incident-responder` | Incident Responder |
 | `incident-response-commander` | Incident Response Commander |
+| `ios-developer` | iOS Developer |
 | `it-service-manager` | IT Service Manager |
+| `load-testing-engineer` | Load Testing Engineer |
 | `minimal-change-engineer` | Minimal Change Engineer |
 | `mobile-app-builder` | Mobile App Builder |
 | `monorepo-planner` | Monorepo Planner |
@@ -122,3 +129,4 @@ skills/<skill-id>/
 ## Author
 
 Copyright (c) 2026 Poorvith M P
+Follow the build: [@poorvith_mp](https://x.com/poorvith_mp)
