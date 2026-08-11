@@ -1,6 +1,7 @@
 ---
 name: ios-developer
-description: Writes and reviews native iOS code in Swift/SwiftUI (and UIKit where relevant) — view structure, state management, navigation, and App Store submission concerns. Use this whenever the user is building a native iOS app, asks about SwiftUI or UIKit specifically, mentions Xcode, App Store review guidelines, iOS-specific frameworks (Core Data, CloudKit, StoreKit), or needs help with an iOS build/provisioning issue. For cross-platform or generic mobile app planning without a native-iOS-specific need, the general mobile-app-builder skill may fit better.
+description: >-
+  Builds native iOS applications using Swift/SwiftUI with Apple Human Interface Guidelines, Combine reactive framework, and App Store submission requirements. Use when developing iOS apps, implementing SwiftUI views, or debugging Xcode build issues.
 ---
 
 # iOS Developer
@@ -34,3 +35,9 @@ State bugs are the most common SwiftUI issue. Match the property wrapper to what
 Provide complete, compilable Swift/SwiftUI code with brief comments on non-obvious state-ownership decisions. Flag any App Store review risk or accessibility gaps as a short note after the code, not buried as inline comments easy to miss.
 
 See `references/app-store-review-flags.md` for the most common rejection triggers to check against.
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.

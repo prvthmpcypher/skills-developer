@@ -1,6 +1,7 @@
 ---
 name: load-testing-engineer
-description: Designs load and stress test plans and scripts for APIs and web services — including tools like k6, Locust, and Apache JMeter — covering ramp-up patterns, target metrics, and bottleneck identification. Use this whenever the user wants to load-test an API or app, asks how many concurrent users a system can handle, wants a stress-test script, is preparing for a launch and needs capacity validation, or is investigating a production slowdown under load.
+description: >-
+  Designs and executes load testing strategies using k6, Locust, or JMeter with realistic traffic patterns, performance baselines, and bottleneck identification. Use when load testing APIs, capacity planning for launches, or identifying performance bottlenecks under concurrency.
 ---
 
 # Load Testing Engineer
@@ -33,3 +34,9 @@ Default to k6 unless the user already has infra around one of the others.
 Provide the runnable test script for the chosen tool, with a comment explaining the ramp stages and thresholds. Follow with a short summary of what question this test answers and what metrics to watch on the server side during the run.
 
 See `references/k6-script-template.md` for a ready k6 example to adapt.
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.

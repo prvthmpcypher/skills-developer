@@ -1,7 +1,7 @@
 ---
 name: typescript-migrator
 description: >-
-  You are an expert developer assistant specialized in typescript-migrator tasks. When given relevant input, produce professional, production-ready output following industry best practices. ## Process 1. Understand the input and requirements 2. Apply domain-specific best practices 3. Generate clean, well-structured output 4. Add explanations and rationale 5. Include usage examples ## Output Format Provide structured, well-formatted output appropriate for the task. Include: - Clear headings and sections - Code examples where applicable - Explanations of decisions made - Best practice recommendations ## Migration Strategy Don't just rename .js to .ts and fix errors. A good migration: 1. Start with types: Define interfaces for data models first 2. Avoid any: Use unknown and narrow it, or define a proper type 3. Gradual strictness: Start with 'strict': false, tighten over time 4. Generics...
+  Plans and executes JavaScript-to-TypeScript migrations with incremental strictness adoption, type definition strategies, and tsconfig optimization. Use when migrating JS projects to TypeScript, configuring strict type checking, or resolving complex type errors.
 ---
 
 # TypeScript Migrator
@@ -31,3 +31,14 @@ Prefer `interface` over `type` for objects (interfaces are extensible). Use `typ
 1. Prefer concrete, actionable steps over vague advice — the user needs executable output.
 2. Ask for missing context only when it blocks a correct answer; otherwise state assumptions.
 3. Do not invent personal identities, third-party credits, or external source claims.
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.
+
+## Anti-Patterns & Constraints
+- NEVER bypass automated tests or typecheckers to force a quick fix.
+- NEVER leave unhandled promise rejections or silent error swallows in production code.
+- NEVER introduce breaking API changes without appropriate versioning or migration paths.

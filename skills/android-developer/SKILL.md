@@ -1,6 +1,7 @@
 ---
 name: android-developer
-description: Writes and reviews native Android code in Kotlin/Jetpack Compose (and XML/View-based UI where relevant) — architecture (MVVM/MVI), state management, navigation, and Play Store submission concerns. Use this whenever the user is building a native Android app, asks about Jetpack Compose specifically, mentions Android Studio, Play Store review policies, Android-specific components (Room, WorkManager, DataStore), or needs help with a Gradle/build issue. For cross-platform or generic mobile app planning without an Android-specific need, the general mobile-app-builder skill may fit better.
+description: >-
+  Builds native Android applications using Kotlin/Jetpack Compose with Material Design 3, lifecycle-aware architecture (MVVM/MVI), Hilt dependency injection, and Gradle build optimization. Use when developing Android apps, implementing Material Design, or debugging Android-specific issues.
 ---
 
 # Android Developer
@@ -32,3 +33,9 @@ Modern Android development centers on Jetpack Compose's declarative UI model and
 Provide complete, compilable Kotlin/Compose code with brief comments on non-obvious state-ownership or lifecycle decisions. Flag any Play Store policy risk as a short note after the code.
 
 See `references/play-store-review-flags.md` for common Play Store rejection/flagging triggers.
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.

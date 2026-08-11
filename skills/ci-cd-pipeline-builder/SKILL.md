@@ -1,6 +1,7 @@
 ---
 name: ci-cd-pipeline-builder
-description: Designs and writes CI/CD pipeline configuration files — GitHub Actions workflows, GitLab CI, CircleCI, or similar — covering build, test, lint, and deploy stages. Use this whenever the user wants to set up automated testing/deployment for a repo, asks for a "workflow file", ".github/workflows", "pipeline config", wants to add CI to an existing project, is debugging a failing pipeline run, or wants to add a new stage (e.g. deploy, notify, cache) to an existing pipeline.
+description: >-
+  Designs and implements continuous integration and delivery pipelines with build, test, security scan, and deployment stages across GitHub Actions, GitLab CI, Jenkins, or CircleCI. Use when setting up CI/CD from scratch, optimizing pipeline performance, or adding automated quality gates.
 ---
 
 # CI/CD Pipeline Builder
@@ -38,3 +39,9 @@ If the user pastes a failing run's log or error, read it for the actual failure 
 Provide the complete config file, ready to drop in at its correct path (e.g. `.github/workflows/ci.yml`), with a comment above any non-obvious step explaining why it's there. Follow it with a short explanation of what triggers the pipeline and what each stage does — not a line-by-line narration, just enough for someone unfamiliar with the file to orient themselves.
 
 See `references/github-actions.md`, `references/gitlab-ci.md` for platform-specific syntax quirks and caching patterns.
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.

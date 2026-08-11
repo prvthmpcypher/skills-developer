@@ -1,7 +1,7 @@
 ---
 name: composio
 description: >-
-  composio = Composio(apikey='yourapikey') # Or set COMPOSIOAPIKEY env var and omit apikey  \\TypeScript:\\ typescript import { Composio } from 'composio';. Use when the user asks about composio, needs this workflow, or requests related deliverables.
+  composio = Composio(apikey='yourapikey') # Or set COMPOSIOAPIKEY env var and omit apikey \\TypeScript:\\ typescript import { Composio } from 'composio';. Use when the user asks about composio, needs this workflow, or requests related deliverables.
 ---
 
 # Composio Skill
@@ -31,7 +31,7 @@ ANTHROPIC_API_KEY=your_anthropic_api_key  # for Claude integration
 ```python
 from composio import Composio
 
-composio = Composio(api_key="your_api_key")
+composio = Composio(api_key = "<YOUR_API_KEY>")
 # Or set COMPOSIO_API_KEY env var and omit api_key
 ```
 \*\*TypeScript:\*\*
@@ -108,3 +108,14 @@ Use \`\$ARGUMENTS\` to understand what the user wants to integrate. Read the ref
 - Use clear headings and bullet lists where helpful.
 - Call out assumptions and open questions at the end.
 - Stay specific to the Composio workflow; avoid generic filler.
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.
+
+## Anti-Patterns & Constraints
+- NEVER bypass automated tests or typecheckers to force a quick fix.
+- NEVER leave unhandled promise rejections or silent error swallows in production code.
+- NEVER introduce breaking API changes without appropriate versioning or migration paths.

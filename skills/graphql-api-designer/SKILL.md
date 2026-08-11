@@ -1,6 +1,7 @@
 ---
 name: graphql-api-designer
-description: Designs GraphQL schemas, resolvers, and query/mutation structures — including type definitions, input types, pagination patterns, and N+1 query mitigation. Use this whenever the user wants a GraphQL API designed or reviewed, mentions schema-first design, asks about resolver structure, wants to add a new type or mutation to an existing schema, or is deciding between GraphQL and REST for a project.
+description: >-
+  Designs GraphQL schemas with type definitions, query/mutation structures, resolver patterns, pagination strategies, and N+1 query prevention. Use when designing GraphQL APIs, optimizing query performance, or migrating from REST to GraphQL.
 ---
 
 # GraphQL API Designer
@@ -35,3 +36,9 @@ type Post {
 Follow with a short note on any N+1 risks, pagination choices, and authorization gaps that need resolver-level handling.
 
 See `references/pagination-patterns.md` for the full Relay cursor-pagination spec.
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.

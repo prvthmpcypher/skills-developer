@@ -17,3 +17,14 @@ description: >-
 - Flag any prompt that relies on assumed knowledge the model may not have; ground it with context or examples instead
 - Never use vague qualifiers like "be helpful" or "be concise" — define exactly what concise means
 - Prefer explicit constraints over implicit expectations — models fill ambiguity unpredictably
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.
+
+## Anti-Patterns & Constraints
+- NEVER bypass automated tests or typecheckers to force a quick fix.
+- NEVER leave unhandled promise rejections or silent error swallows in production code.
+- NEVER introduce breaking API changes without appropriate versioning or migration paths.

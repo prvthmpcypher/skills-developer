@@ -1,6 +1,7 @@
 ---
 name: dependency-upgrade-auditor
-description: Reviews a project's dependency manifest (package.json, requirements.txt, go.mod, Cargo.toml, etc.) to identify outdated packages, flag breaking-change risk in available upgrades, and sequence a safe upgrade plan. Use this whenever the user wants to update dependencies, asks "is it safe to upgrade X", is dealing with a deprecated package warning, wants a dependency audit before a release, or is investigating whether an upgrade caused a regression.
+description: >-
+  Audits project dependencies for outdated versions, security vulnerabilities (CVEs), license compliance, and breaking change risks, then produces prioritized upgrade roadmaps. Use when performing dependency audits, planning major version upgrades, or responding to security advisories.
 ---
 
 # Dependency Upgrade Auditor
@@ -44,3 +45,9 @@ Upgrading a dependency is a tradeoff between staying current (security patches, 
 ```
 
 See `references/semver-risk-guide.md` for how to read changelogs for real (vs. nominal) breaking-change risk.
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.

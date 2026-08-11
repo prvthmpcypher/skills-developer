@@ -32,7 +32,7 @@ The installer prints a status report: prerequisites (\`python3\`, \`codex\`, cod
 ```
 5. \*\*Remind the user to restart Claude Code or run \`/hooks\`\*\* so the new hook is loaded — a<br>   freshly written \`settings.json\` is not picked up mid-session automatically.
 ## Critical Rules
-1. \*\*Current project only.\*\* Install into the target dir (default \`\$PWD\`); never touch<br>   \`\~/.claude/settings.json\`. This is a per-project gate by design.<br>2. \*\*Idempotent.\*\* The installer is safe to re-run; it detects an existing install and skips.<br>   If the user re-invokes the skill, just run it again and report "already present".<br>3. \*\*Never clobber\*\* existing \`settings.json\` or \`CLAUDE.md\` — the installer merges/appends.<br>   Don't bypass it with a raw overwrite.<br>4. \*\*Fail-open is intentional.\*\* Don't "fix" the hook to hard-block when codex is unavailable —<br>   that would brick editing. A logged-out codex must allow edits with a warning.<br>5. \*\*Don't fake the prereq check.\*\* Report exactly what \`install.sh\` found. If \`python3\` is<br>   missing, the hook can't run — say so.<br>6. \*\*Flag the trade-off\*\* if asked: this reviews on \*every\* code edit, so each edit waits for a<br>   codex call (up to the 120s hook timeout). Mention an end-of-task \`Stop\` hook as the lighter<br>   alternative if the user finds per-edit latency annoying.
+1. \*\*Current project only.\*\* Install into the target dir (default \`\$PWD\`); never touch<br>   \`\<USER_HOME>/.claude/settings.json\`. This is a per-project gate by design.<br>2. \*\*Idempotent.\*\* The installer is safe to re-run; it detects an existing install and skips.<br>   If the user re-invokes the skill, just run it again and report "already present".<br>3. \*\*Never clobber\*\* existing \`settings.json\` or \`CLAUDE.md\` — the installer merges/appends.<br>   Don't bypass it with a raw overwrite.<br>4. \*\*Fail-open is intentional.\*\* Don't "fix" the hook to hard-block when codex is unavailable —<br>   that would brick editing. A logged-out codex must allow edits with a warning.<br>5. \*\*Don't fake the prereq check.\*\* Report exactly what \`install.sh\` found. If \`python3\` is<br>   missing, the hook can't run — say so.<br>6. \*\*Flag the trade-off\*\* if asked: this reviews on \*every\* code edit, so each edit waits for a<br>   codex call (up to the 120s hook timeout). Mention an end-of-task \`Stop\` hook as the lighter<br>   alternative if the user finds per-edit latency annoying.
 ## Final Note
 \`\$ARGUMENTS\` is an optional target project directory; default to the current directory when<br>empty. The skill's job is: run the bundled installer, faithfully report its findings, and tell<br>the user the one manual step (\`codex login\`) if it's needed.
 ---
@@ -43,3 +43,14 @@ The installer prints a status report: prerequisites (\`python3\`, \`codex\`, cod
 - Use clear headings and bullet lists where helpful.
 - Call out assumptions and open questions at the end.
 - Stay specific to the Setup Codex Precheck workflow; avoid generic filler.
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.
+
+## Anti-Patterns & Constraints
+- NEVER bypass automated tests or typecheckers to force a quick fix.
+- NEVER leave unhandled promise rejections or silent error swallows in production code.
+- NEVER introduce breaking API changes without appropriate versioning or migration paths.

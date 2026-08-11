@@ -15,7 +15,7 @@ Before writing anything, determine the skill type:
 \| Type \| Purpose \| Example \|<br>\|------\|---------\|---------\|<br>\| \*\*Task\*\* \| Performs actions with side effects \| deploy, commit, publish \|<br>\| \*\*Research\*\* \| Gathers and synthesizes information \| deep-research, audit \|<br>\| \*\*Knowledge\*\* \| Provides reference context \| api-conventions, style-guide \|<br>\| \*\*Dynamic\*\* \| Injects live context via shell commands \| pr-summary, env-check \|
 Ask the user if their intent is unclear. A skill that "deploys to production" is a Task. A skill that "explains our API patterns" is Knowledge.
 ### Step 2: Determine Scope
-\| Scope \| Path \| When to use \|<br>\|-------\|------\|-------------\|<br>\| \*\*Personal\*\* \| \`\~/.claude/skills/\<name\>/\` \| Workflows that apply across all your projects \|<br>\| \*\*Project\*\* \| \`.claude/skills/\<name\>/\` \| Project-specific conventions shared with the team \|
+\| Scope \| Path \| When to use \|<br>\|-------\|------\|-------------\|<br>\| \*\*Personal\*\* \| \`\<USER_HOME>/.claude/skills/\<name\>/\` \| Workflows that apply across all your projects \|<br>\| \*\*Project\*\* \| \`.claude/skills/\<name\>/\` \| Project-specific conventions shared with the team \|
 Default to \*\*project scope\*\* unless the user explicitly wants it personal or the skill is clearly project-agnostic.
 ### Step 3: Choose Frontmatter Settings
 Use this decision matrix:
@@ -137,3 +137,9 @@ When the user describes a skill to create, use \`\$ARGUMENTS\` as context for wh
 - Use clear headings and bullet lists where helpful.
 - Call out assumptions and open questions at the end.
 - Stay specific to the Create Skill workflow; avoid generic filler.
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.

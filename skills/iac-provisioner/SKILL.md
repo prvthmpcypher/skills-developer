@@ -1,6 +1,7 @@
 ---
 name: iac-provisioner
-description: Writes infrastructure-as-code — Dockerfiles, docker-compose setups, Terraform configs, and Kubernetes manifests — for provisioning and deploying application infrastructure. Use this whenever the user wants to containerize an app, needs a Dockerfile or docker-compose.yml, mentions Terraform, Kubernetes, K8s manifests, Helm charts, provisioning cloud resources (AWS/GCP/Azure), or wants to move a manually-configured server setup into version-controlled config.
+description: >-
+  Writes Infrastructure-as-Code configurations using Terraform, Pulumi, or CloudFormation with modular resource definitions, state management, and drift detection. Use when provisioning cloud infrastructure, writing Terraform modules, or designing IaC repository structures.
 ---
 
 # Infrastructure-as-Code Provisioner
@@ -44,3 +45,9 @@ Infrastructure code has a different failure mode than application code: a mistak
 Provide the complete file(s), ready to save at the conventional path (`Dockerfile`, `docker-compose.yml`, `main.tf`, `deployment.yaml`), with inline comments on anything non-obvious or anything that costs money/opens access. Follow with a short plain-language summary of what it provisions and any cost or security flags — before the user applies it, not after.
 
 See `references/dockerfile-patterns.md` and `references/terraform-k8s-patterns.md` for fuller examples per stack.
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.

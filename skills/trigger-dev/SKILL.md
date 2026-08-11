@@ -1,7 +1,7 @@
 ---
 name: trigger-dev
 description: >-
-  export const myTask = task({   id: 'my-task',   run: async (payload: { data: string }, { ctx }) => {     return { result: 'done' };   }, });  ### Schema-Validated Task typescript import { schemaTask } from '@trigger.dev/sdk'; import { z } from 'zod';. Use when the user asks about trigger.dev, needs this workflow, or requests related deliverables.
+  export const myTask = task({ id: 'my-task', run: async (payload: { data: string }, { ctx }) => { return { result: 'done' }; }, }); ### Schema-Validated Task typescript import { schemaTask } from '@trigger.dev/sdk'; import { z } from 'zod';. Use when the user asks about trigger.dev, needs this workflow, or requests related deliverables.
 ---
 
 # Trigger.dev Skill
@@ -82,3 +82,14 @@ Use \`\$ARGUMENTS\` to understand what the user wants to build. Read the referen
 - Use clear headings and bullet lists where helpful.
 - Call out assumptions and open questions at the end.
 - Stay specific to the Trigger.dev workflow; avoid generic filler.
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.
+
+## Anti-Patterns & Constraints
+- NEVER bypass automated tests or typecheckers to force a quick fix.
+- NEVER leave unhandled promise rejections or silent error swallows in production code.
+- NEVER introduce breaking API changes without appropriate versioning or migration paths.
