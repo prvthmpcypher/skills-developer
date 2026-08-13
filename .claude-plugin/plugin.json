@@ -1,0 +1,20 @@
+{
+  "name": "skills-developer",
+  "displayName": "Developer Skills",
+  "version": "1.0.0",
+  "description": "80 developer skills. Software engineering: architecture, security, CI/CD, data, mobile, SRE and debugging.",
+  "author": {
+    "name": "Poorvith M P",
+    "url": "https://github.com/prvthmpcypher"
+  },
+  "homepage": "https://github.com/prvthmpcypher/skillary",
+  "repository": "https://github.com/prvthmpcypher/skills-developer",
+  "license": "MIT",
+  "keywords": [
+    "engineering",
+    "devops",
+    "security",
+    "architecture",
+    "agent-skills"
+  ]
+}
