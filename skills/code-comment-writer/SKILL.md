@@ -31,12 +31,14 @@ index = index + 1
 Before adding a comment, ask: could a better name make this unnecessary? Often yes. Reserve comments for: non-obvious business logic, workarounds for bugs, performance-critical sections, complex algorithms (link to the resource).
 
 ## Verification & Quality Checklist
-- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
-- [ ] Edge cases, boundary conditions, and error states handled explicitly.
-- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
-- [ ] Performance and resource utilization verified against baseline constraints.
+
+- [ ] Every factual claim and statistic traced to a citable source.
+- [ ] Reading level and terminology matched to the stated audience.
+- [ ] Length and formatting fit the destination channel's limits.
+- [ ] One clear call to action, placed where the reader will still be reading.
 
 ## Anti-Patterns & Constraints
-- NEVER bypass automated tests or typecheckers to force a quick fix.
-- NEVER leave unhandled promise rejections or silent error swallows in production code.
-- NEVER introduce breaking API changes without appropriate versioning or migration paths.
+
+- NEVER invent statistics, quotes, or sources.
+- NEVER present an unverified figure as sourced.
+- NEVER bury the central point below preamble the reader will not reach.

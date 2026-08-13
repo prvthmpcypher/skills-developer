@@ -20,7 +20,7 @@ Upgrading a dependency is a tradeoff between staying current (security patches, 
 5. **Sequence the upgrade plan**: patches and minors first (batch, low risk), then majors one at a time with a note on what to test after each, prioritized by security relevance.
 6. **Watch for transitive conflicts** — upgrading one package can force a peer dependency into a version range that conflicts with another package's requirement. Flag this if visible in the lockfile/error output rather than assuming a clean upgrade.
 
-## What NOT to do
+## Anti-Patterns & Constraints
 
 - Don't recommend upgrading to the absolute latest version of everything by default — "safe and current" isn't the same as "bleeding edge," and unnecessary churn has its own cost.
 - Don't claim a major-version upgrade is safe without either reading its changelog/migration guide or explicitly flagging that you haven't verified it and the user should check before merging.
@@ -47,7 +47,8 @@ Upgrading a dependency is a tradeoff between staying current (security patches, 
 See `references/semver-risk-guide.md` for how to read changelogs for real (vs. nominal) breaking-change risk.
 
 ## Verification & Quality Checklist
-- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
-- [ ] Edge cases, boundary conditions, and error states handled explicitly.
-- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
-- [ ] Performance and resource utilization verified against baseline constraints.
+
+- [ ] Code compiles and all automated tests and typechecks pass without new warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly rather than assumed.
+- [ ] No hardcoded secrets, credentials, or insecure defaults introduced.
+- [ ] Changes are covered by a test that fails without them.

@@ -24,7 +24,7 @@ A load test that doesn't map to a real usage pattern tells you nothing useful �
 
 Default to k6 unless the user already has infra around one of the others.
 
-## What NOT to do
+## Anti-Patterns & Constraints
 
 - Don't run a load test against production without explicit confirmation the user understands the risk — a poorly-scoped load test can take down a live system serving real users. Always ask whether this targets staging or production before writing a script.
 - Don't report a single "requests per second" number as the whole answer — always pair throughput with latency percentiles and error rate, since a system can hit high RPS while still failing badly for individual users.
@@ -36,7 +36,8 @@ Provide the runnable test script for the chosen tool, with a comment explaining 
 See `references/k6-script-template.md` for a ready k6 example to adapt.
 
 ## Verification & Quality Checklist
-- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
-- [ ] Edge cases, boundary conditions, and error states handled explicitly.
-- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
-- [ ] Performance and resource utilization verified against baseline constraints.
+
+- [ ] Code compiles and all automated tests and typechecks pass without new warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly rather than assumed.
+- [ ] No hardcoded secrets, credentials, or insecure defaults introduced.
+- [ ] Changes are covered by a test that fails without them.

@@ -25,7 +25,7 @@ State bugs are the most common SwiftUI issue. Match the property wrapper to what
 4. **Flag App Store review risk proactively** — certain patterns reliably get rejected: using private APIs, non-standard implementations of standard UI elements (e.g. custom login flows that should use Sign in with Apple when other social logins are offered), or ambiguous data collection without an accurate Privacy Nutrition Label. Say so when relevant, don't wait to be asked.
 5. **Respect platform conventions** — navigation patterns, safe-area handling, dynamic type support for accessibility — these aren't optional polish, App Store review and real users both notice their absence.
 
-## What NOT to do
+## Anti-Patterns & Constraints
 
 - Don't recommend force-unwrapping (`!`) as a default — prefer `guard let`/`if let` or `??` with a sensible fallback, and only use force-unwrap where a nil value would genuinely represent a programming error that should crash loudly in development.
 - Don't write code targeting a deployment target inconsistent with the project's actual `Deployment Target` setting — check `Info.plist`/project settings before using APIs that require a newer iOS version than the project supports.
@@ -37,7 +37,8 @@ Provide complete, compilable Swift/SwiftUI code with brief comments on non-obvio
 See `references/app-store-review-flags.md` for the most common rejection triggers to check against.
 
 ## Verification & Quality Checklist
-- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
-- [ ] Edge cases, boundary conditions, and error states handled explicitly.
-- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
-- [ ] Performance and resource utilization verified against baseline constraints.
+
+- [ ] Code compiles and all automated tests and typechecks pass without new warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly rather than assumed.
+- [ ] No hardcoded secrets, credentials, or insecure defaults introduced.
+- [ ] Changes are covered by a test that fails without them.

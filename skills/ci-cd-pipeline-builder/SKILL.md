@@ -28,7 +28,7 @@ You're writing configuration that runs unattended on every push or PR — a brok
 
 If the user pastes a failing run's log or error, read it for the actual failure point first — CI failures are often a symptom one or two steps upstream of where the error message appears (e.g. a cache-key collision masking a stale dependency, not the test itself being wrong). Don't just patch the visible error; check whether an earlier step's assumption broke.
 
-## What NOT to do
+## Anti-Patterns & Constraints
 
 - Don't invent secret names or environment variables the user hasn't mentioned — ask what they're actually called in their existing secret store rather than guessing plausible-sounding ones.
 - Don't add deploy steps unless explicitly asked — a CI setup for testing shouldn't quietly ship a deploy stage the user didn't request.
@@ -41,7 +41,8 @@ Provide the complete config file, ready to drop in at its correct path (e.g. `.g
 See `references/github-actions.md`, `references/gitlab-ci.md` for platform-specific syntax quirks and caching patterns.
 
 ## Verification & Quality Checklist
-- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
-- [ ] Edge cases, boundary conditions, and error states handled explicitly.
-- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
-- [ ] Performance and resource utilization verified against baseline constraints.
+
+- [ ] Code compiles and all automated tests and typechecks pass without new warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly rather than assumed.
+- [ ] No hardcoded secrets, credentials, or insecure defaults introduced.
+- [ ] Changes are covered by a test that fails without them.

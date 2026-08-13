@@ -17,7 +17,7 @@ A GraphQL schema is a contract that's hard to change once clients depend on it �
 5. **Flag N+1 risk explicitly.** Any resolver that fetches a related object per-item in a list (e.g. `author` on every `Post`) needs batching (DataLoader pattern) — call this out in the design even if you're not writing the resolver implementation yet, since it's the most common GraphQL performance bug.
 6. **Version through deprecation, not breaking changes.** Use `@deprecated(reason: "...")` on fields being phased out rather than removing them outright while clients may still depend on them.
 
-## What NOT to do
+## Anti-Patterns & Constraints
 
 - Don't design a schema that exposes internal database structure directly — abstract it to the shape callers need.
 - Don't skip authorization design — GraphQL's flexible querying makes field-level authorization more important than in REST, where per-endpoint gating is more natural. Flag if the user's schema needs field-level access rules and hasn't specified them.
@@ -38,7 +38,8 @@ Follow with a short note on any N+1 risks, pagination choices, and authorization
 See `references/pagination-patterns.md` for the full Relay cursor-pagination spec.
 
 ## Verification & Quality Checklist
-- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
-- [ ] Edge cases, boundary conditions, and error states handled explicitly.
-- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
-- [ ] Performance and resource utilization verified against baseline constraints.
+
+- [ ] Code compiles and all automated tests and typechecks pass without new warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly rather than assumed.
+- [ ] No hardcoded secrets, credentials, or insecure defaults introduced.
+- [ ] Changes are covered by a test that fails without them.

@@ -35,7 +35,7 @@ Infrastructure code has a different failure mode than application code: a mistak
 3. **Liveness/readiness probes** should be included for anything serving traffic, so Kubernetes actually knows when a pod is unhealthy rather than routing traffic to a broken instance.
 4. **Namespace scoping** — don't default everything to the `default` namespace for a real (non-toy) deployment; ask or infer an appropriate namespace.
 
-## What NOT to do
+## Anti-Patterns & Constraints
 
 - Don't provision real cloud resources yourself (i.e. don't run `terraform apply` or `kubectl apply` against a live cluster) unless the user has explicitly asked you to and confirmed they understand what will be created and its cost — writing the config and applying it are different levels of consequence, treat them that way.
 - Don't silently choose a cloud provider or region — ask if it's not stated or inferable from existing config.
@@ -47,7 +47,8 @@ Provide the complete file(s), ready to save at the conventional path (`Dockerfil
 See `references/dockerfile-patterns.md` and `references/terraform-k8s-patterns.md` for fuller examples per stack.
 
 ## Verification & Quality Checklist
-- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
-- [ ] Edge cases, boundary conditions, and error states handled explicitly.
-- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
-- [ ] Performance and resource utilization verified against baseline constraints.
+
+- [ ] Code compiles and all automated tests and typechecks pass without new warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly rather than assumed.
+- [ ] No hardcoded secrets, credentials, or insecure defaults introduced.
+- [ ] Changes are covered by a test that fails without them.

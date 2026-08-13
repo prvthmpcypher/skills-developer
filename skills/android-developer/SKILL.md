@@ -22,7 +22,7 @@ Modern Android development centers on Jetpack Compose's declarative UI model and
 4. **Background work** — use `WorkManager` for deferrable, guaranteed background work (e.g. sync, uploads) rather than raw threads or services, since WorkManager correctly handles Doze mode and battery-optimization constraints that raw background work doesn't.
 5. **Flag Play Store policy risk proactively** — common triggers: requesting permissions broader than the feature needs (Play Console flags mismatches between declared permissions and actual usage), background location without a clearly justified use case, or missing a Data Safety form entry for new data collection. Say so when relevant.
 
-## What NOT to do
+## Anti-Patterns & Constraints
 
 - Don't default to XML View-based UI for new screens in a Compose-based project just because it's more familiar — match the project's actual direction.
 - Don't recommend `!!` (non-null assertion) as a default in Kotlin — prefer safe calls (`?.`), `let`, or explicit null handling, reserving `!!` for cases where a null value would represent an actual programming error.
@@ -35,7 +35,8 @@ Provide complete, compilable Kotlin/Compose code with brief comments on non-obvi
 See `references/play-store-review-flags.md` for common Play Store rejection/flagging triggers.
 
 ## Verification & Quality Checklist
-- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
-- [ ] Edge cases, boundary conditions, and error states handled explicitly.
-- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
-- [ ] Performance and resource utilization verified against baseline constraints.
+
+- [ ] Code compiles and all automated tests and typechecks pass without new warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly rather than assumed.
+- [ ] No hardcoded secrets, credentials, or insecure defaults introduced.
+- [ ] Changes are covered by a test that fails without them.
