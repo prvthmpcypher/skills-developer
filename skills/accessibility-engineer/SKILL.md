@@ -38,3 +38,9 @@ Audits, validates, and remediates accessibility issues across web applications a
 - NEVER strip focus outlines (`outline: none` or `outline: 0`) without providing an equally visible custom focus state.
 - NEVER use generic `aria-label="button"` or duplicate accessible names.
 - NEVER rely solely on automated audits (automated tools catch only ~30-40% of accessibility issues; always test manual keyboard flow).
+
+## References
+
+Load these only when the task needs them:
+
+- [references/wcag-checklist.md](references/wcag-checklist.md)

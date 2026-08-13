@@ -32,3 +32,9 @@ Designs, implements, and secures e-commerce workflows, shopping carts, checkout 
 ## Anti-Patterns & Constraints
 - NEVER handle raw credit card numbers on your server (always use client-side tokenization / Hosted Fields).
 - NEVER cache authenticated user checkout or cart responses on public CDNs.
+
+## References
+
+Load these only when the task needs them:
+
+- [references/pci-dss-checklist.md](references/pci-dss-checklist.md)

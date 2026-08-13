@@ -5,6 +5,7 @@ description: >-
   check next. Use when a trace is opaque. Not for systematic root-cause work - use
   debugging-strategist.
 ---
+# Bug Explainer
 
 ### 📖 What Happened Plain English explanation of the error in 2-3 sentences. ### 🔍 Root Cause Specific explanation of what in the code caused this error. ### ✅ The Fix javascript. Use when the user...
 ---

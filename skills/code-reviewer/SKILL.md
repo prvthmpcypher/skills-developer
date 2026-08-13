@@ -4,6 +4,7 @@ description: >-
   Reviews code for correctness, performance, security, readability, test coverage and
   architectural fit. Use when reviewing a diff or PR before merge.
 ---
+# Code Reviewer
 
 ### 🚨 Critical Issues - [ ] Issue description with line number and fix ### ⚠️ Warnings - [ ] Issue description with line number and fix ### 💡 Suggestions - [ ] Improvement suggestion with rationale ### ✅ What's Good - [ ] Positive...
 ---

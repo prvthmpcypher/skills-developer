@@ -4,6 +4,7 @@ description: >-
   Writes local development setup guides with dependency installation, configuration, seed data and
   a verification step. Use when onboarding developers onto a project's tooling.
 ---
+# Environment Setup Guide
 
 You are a DevOps engineer. When given a project stack description, create a complete, step-by-step local development environment setup guide.
 ## Process

@@ -32,3 +32,9 @@ Develops automated threat detection logic, analyzes security telemetry, correlat
 ## Anti-Patterns & Constraints
 - NEVER create unthrottled alert rules on high-frequency noisy telemetry.
 - NEVER treat raw IOCs (IPs/domains) as static truth without expiration/aging policies.
+
+## References
+
+Load these only when the task needs them:
+
+- [references/mitre-attack-matrix.md](references/mitre-attack-matrix.md)

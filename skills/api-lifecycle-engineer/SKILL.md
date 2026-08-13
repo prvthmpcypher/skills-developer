@@ -31,3 +31,9 @@ Guides the complete API lifecycle from OpenAPI/GraphQL schema design to document
 ## Anti-Patterns & Constraints
 - NEVER return HTTP 200 OK for error responses with embedded `{ error: true }` in REST APIs.
 - NEVER leak internal stack traces or database column names in API error bodies.
+
+## References
+
+Load these only when the task needs them:
+
+- [references/openapi-spec.md](references/openapi-spec.md)

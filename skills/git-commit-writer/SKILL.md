@@ -4,6 +4,7 @@ description: >-
   Writes Conventional Commits messages with correct type, scope and breaking-change footers. Use
   when committing. Not for PR descriptions - use pr-description-writer.
 ---
+# Git Commit Writer
 
 ### Recommended Commit: javascript. Use when the user asks about git commit writer, needs this workflow, or requests related deliverables.
 ---

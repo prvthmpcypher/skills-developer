@@ -35,3 +35,10 @@ Conducts comprehensive application security reviews, threat modeling, vulnerabil
 - NEVER roll custom cryptographic primitives or hashing algorithms.
 - NEVER rely solely on client-side validation for access control or input hygiene.
 - NEVER expose detailed stack traces or database schema errors to end users.
+
+## References
+
+Load these only when the task needs them:
+
+- [references/owasp-top-10.md](references/owasp-top-10.md)
+- [references/stride-model.md](references/stride-model.md)
