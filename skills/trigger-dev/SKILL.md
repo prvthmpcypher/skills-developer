@@ -1,8 +1,9 @@
 ---
 name: trigger-dev
 description: >-
-  Builds Trigger.dev background jobs and workflows: task definitions, retries, scheduling and
-  observability. Use when running long or scheduled work off the request path.
+  Builds Trigger.dev background jobs: task definitions, retries, scheduling and observability. Use
+  when running long or scheduled work off the request path. For visual no-code automation, use
+  n8n.
 ---
 
 # Trigger.dev Skill
