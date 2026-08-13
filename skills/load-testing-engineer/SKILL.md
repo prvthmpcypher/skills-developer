@@ -1,7 +1,8 @@
 ---
 name: load-testing-engineer
 description: >-
-  Designs and executes load testing strategies using k6, Locust, or JMeter with realistic traffic patterns, performance baselines, and bottleneck identification. Use when load testing APIs, capacity planning for launches, or identifying performance bottlenecks under concurrency.
+  Designs and runs load tests with k6, Locust or JMeter using realistic traffic patterns and
+  baselines. Use when validating capacity or finding a breaking point.
 ---
 
 # Load Testing Engineer

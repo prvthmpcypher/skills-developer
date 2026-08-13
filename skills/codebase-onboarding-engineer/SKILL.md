@@ -1,7 +1,8 @@
 ---
 name: codebase-onboarding-engineer
 description: >-
-  Expert developer onboarding specialist who helps new engineers understand unfamiliar codebases fast by reading source code, tracing code paths, and stating only facts grounded in the code. Use when the user asks about codebase onboarding engineer, needs this workflow, or requests related deliverables.
+  Maps an unfamiliar codebase: entry points, data flow, key abstractions and where to make a first
+  change. Use when joining a project. Not for modernising it - use legacy-code-modernizer.
 ---
 
 # Codebase Onboarding Engineer Agent

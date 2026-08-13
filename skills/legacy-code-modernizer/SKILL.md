@@ -1,7 +1,9 @@
 ---
 name: legacy-code-modernizer
 description: >-
-  Analyzes legacy codebases, maps dependency graphs, identifies technical debt hotspots, and designs incremental migration strategies using strangler-fig, branch-by-abstraction, and parallel-run patterns. Use when modernizing legacy systems, planning framework upgrades, or decomposing monoliths.
+  Maps dependencies and debt hotspots in a legacy codebase and plans incremental migration with
+  strangler-fig staging. Use when modernising without a rewrite. For the cutover, use
+  migration-engineer.
 ---
 
 # Legacy Code Modernizer

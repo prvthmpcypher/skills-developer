@@ -1,7 +1,8 @@
 ---
 name: orgscript-engineer
 description: >-
-  Specialist workflow for OrgScript Engineer. Use when the user asks about orgscript engineer, needs this workflow, or requests related deliverables.
+  Encodes organisational processes as executable scripts and templates so recurring work runs
+  consistently. Use when a process lives only in people's heads.
 ---
 
 # OrgScript Engineer

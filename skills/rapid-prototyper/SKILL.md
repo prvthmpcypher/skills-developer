@@ -1,7 +1,8 @@
 ---
 name: rapid-prototyper
 description: >-
-  Specialist workflow for Rapid Prototyper. Use when the user asks about rapid prototyper, needs this workflow, or requests related deliverables.
+  Builds a working prototype fast, choosing throwaway shortcuts deliberately and marking what must
+  be rebuilt. Use when validating an idea rather than shipping it.
 ---
 
 # Rapid Prototyper

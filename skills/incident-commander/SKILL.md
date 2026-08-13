@@ -1,7 +1,9 @@
 ---
 name: incident-commander
 description: >-
-  Leads end-to-end incident response, severity classification, diagnostic triage, stakeholder communications, mitigation execution, and post-incident root cause analysis (RCA). Use during production outages, service degradations, or post-mortem reviews. Use when working on incident commander, generating related artifacts, or analyzing domain requirements.
+  Runs incident response: severity classification, diagnostic triage, stakeholder comms,
+  mitigation and post-mortem. Use when a production incident is active or when writing the
+  post-mortem afterwards.
 ---
 
 # Incident Commander

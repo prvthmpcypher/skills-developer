@@ -1,7 +1,8 @@
 ---
 name: solidity-smart-contract-engineer
 description: >-
-  Expert Solidity developer specializing in EVM smart contract architecture, gas optimization, upgradeable proxy patterns, DeFi protocol development, and security-first contract design across Ethereum and L2 chains. Use when the user asks about solidity smart contract engineer, needs this workflow, or requests related deliverables.
+  Writes Solidity for EVM: contract architecture, gas optimisation, upgradeable proxies and DeFi
+  patterns. Use when building contracts. For auditing them, use blockchain-security-auditor.
 ---
 
 # Solidity Smart Contract Engineer

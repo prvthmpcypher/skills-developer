@@ -1,7 +1,8 @@
 ---
 name: new-client-system
 description: >-
-  Specialist workflow for New Client System. Use when the user asks about new client system, needs this workflow, or requests related deliverables.
+  Sets up the onboarding system for a new client engagement: intake, access, environments,
+  communication cadence and deliverable tracking. Use when starting client work.
 ---
 
 # New Client System

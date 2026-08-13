@@ -1,7 +1,9 @@
 ---
 name: autonomous-optimization-architect
 description: >-
-  Specialist workflow for Autonomous Optimization Architect. Use when the user asks about autonomous optimization architect, needs this workflow, or requests related deliverables.
+  Designs systems that tune themselves - autoscaling, adaptive parameters and feedback-driven
+  optimisation with safe bounds. Use when a system needs to self-correct rather than be tuned by
+  hand.
 ---
 
 # Autonomous Optimization Architect

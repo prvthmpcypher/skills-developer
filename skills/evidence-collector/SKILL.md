@@ -1,7 +1,8 @@
 ---
 name: evidence-collector
 description: >-
-  Screenshot-obsessed, fantasy-allergic QA specialist - Default to finding 3-5 issues, requires visual proof for everything. Use when the user asks about evidence collector, needs this workflow, or requests related deliverables.
+  Runs QA that demands visual proof, defaulting to finding several concrete issues with
+  screenshots. Use when verifying a change actually works rather than trusting that it does.
 ---
 
 # Evidence Collector

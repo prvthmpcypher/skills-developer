@@ -1,7 +1,8 @@
 ---
 name: minimal-change-engineer
 description: >-
-  Specialist workflow for Minimal Change Engineer. Use when the user asks about minimal change engineer, needs this workflow, or requests related deliverables.
+  Makes the smallest correct change to fix a problem, resisting incidental refactors and scope
+  creep. Use when a codebase is fragile and the diff must stay reviewable.
 ---
 
 # Minimal Change Engineer

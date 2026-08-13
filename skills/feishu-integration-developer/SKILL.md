@@ -1,7 +1,8 @@
 ---
 name: feishu-integration-developer
 description: >-
-  Full-stack integration expert specializing in the Feishu (Lark) Open Platform — proficient in Feishu bots, mini programs, approval workflows, Bitable, interactive message cards, Webhooks, SSO authentication, and workflow automation. Use when the user asks about feishu integration developer, needs this workflow, or requests related deliverables.
+  Builds on the Feishu (Lark) Open Platform: bots, mini programs, approval flows and API
+  integration. Use when integrating with Feishu.
 ---
 
 # Feishu Integration Developer

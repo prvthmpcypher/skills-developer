@@ -1,7 +1,8 @@
 ---
 name: software-architect
 description: >-
-  Expert software architect specializing in system design, domain-driven design, architectural patterns, and technical decision-making for scalable, maintainable systems. Use when the user asks about software architect, needs this workflow, or requests related deliverables.
+  Designs whole-system architecture: domain-driven design, architectural patterns and technical
+  decision records. Use for system-level design. For backend specifics, use backend-architect.
 ---
 
 # Software Architect Agent

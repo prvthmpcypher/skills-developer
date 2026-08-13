@@ -1,7 +1,8 @@
 ---
 name: graphql-api-designer
 description: >-
-  Designs GraphQL schemas with type definitions, query/mutation structures, resolver patterns, pagination strategies, and N+1 query prevention. Use when designing GraphQL APIs, optimizing query performance, or migrating from REST to GraphQL.
+  Designs GraphQL schemas: types, queries and mutations, resolver patterns, pagination and N+1
+  avoidance. Use for GraphQL specifically. For REST or gRPC, use api-lifecycle-engineer.
 ---
 
 # GraphQL API Designer

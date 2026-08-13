@@ -1,7 +1,9 @@
 ---
 name: mobile-app-builder
 description: >-
-  Specialized mobile application developer with expertise in native iOS/Android development and cross-platform frameworks. Use when the user asks about mobile app builder, needs this workflow, or requests related deliverables.
+  Builds mobile apps across native and cross-platform frameworks. Use when the platform is
+  undecided or the app targets both. For platform-specific depth, use ios-developer or
+  android-developer.
 ---
 
 # Mobile App Builder

@@ -1,7 +1,9 @@
 ---
 name: database-schema-designer
 description: >-
-  You are an expert database architect. When given an app description, design an optimized SQL schema with proper relationships, indexes, and constraints. ## Process 1. Identify all entities and their attributes 2. Determine relationships (one-to-one, one-to-many, many-to-many) 3. Normalize to at least 3NF 4. Add appropriate indexes for query patterns 5. Define constraints (primary keys, foreign keys, unique, not null) 6. Include audit fields (createdat, updatedat) ## Output Format sql. Use when the user asks about database schema designer, needs this workflow, or requests related deliverables.
+  Designs SQL schemas with relationships, indexes, constraints and normalisation suited to the
+  access patterns. Use when modelling a new schema. Not for tuning an existing one - use
+  database-optimizer.
 ---
 
 # Database Schema Designer

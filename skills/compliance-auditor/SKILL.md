@@ -1,7 +1,8 @@
 ---
 name: compliance-auditor
 description: >-
-  Expert technical compliance auditor specializing in SOC 2, ISO 27001, HIPAA, and PCI-DSS audits — from readiness assessment through evidence collection to certification. Use when the user asks about compliance auditor, needs this workflow, or requests related deliverables.
+  Prepares for SOC 2, ISO 27001, HIPAA and PCI-DSS audits: readiness assessment, control mapping
+  and evidence collection. Use when preparing for a technical audit. Name the framework.
 ---
 
 # Compliance Auditor Agent

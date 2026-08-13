@@ -1,7 +1,9 @@
 ---
 name: debugging-strategist
 description: >-
-  Applies systematic debugging methodologies including binary search isolation, hypothesis-driven log analysis, memory leak profiling, race condition detection, and structured root cause analysis. Use when diagnosing complex bugs, investigating production errors, profiling memory leaks, or debugging intermittent failures.
+  Applies systematic debugging: binary search isolation, hypothesis-driven log analysis, memory
+  and race condition profiling. Use when a bug resists guessing. Not for reading one trace - use
+  bug-explainer.
 ---
 
 # Debugging Strategist

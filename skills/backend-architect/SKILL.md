@@ -1,7 +1,9 @@
 ---
 name: backend-architect
 description: >-
-  Senior backend architect specializing in scalable system design, database architecture, API development, and cloud infrastructure. Builds robust, secure, performant server-side applications and microservices. Use when the user asks about backend architect, needs this workflow, or requests related deliverables.
+  Designs backend systems: service boundaries, database architecture, API structure and cloud
+  infrastructure. Use when designing a backend. Not for whole-system architecture - use
+  software-architect.
 ---
 
 # Backend Architect

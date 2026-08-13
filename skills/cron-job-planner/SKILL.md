@@ -1,7 +1,8 @@
 ---
 name: cron-job-planner
 description: >-
-  Designs reliable cron job schedules with proper timezone handling, overlap prevention, failure alerting, and dependency ordering. Use when scheduling periodic tasks, debugging crontab expressions, or architecting background job systems.
+  Designs cron schedules with timezone handling, overlap prevention, failure alerting and
+  dependency ordering. Use when scheduling recurring jobs or fixing overlapping runs.
 ---
 
 # Cron Job Planner

@@ -1,7 +1,9 @@
 ---
 name: refactor-assistant
 description: >-
-  Identifies code smells, proposes refactoring strategies (Extract Method, Replace Conditional with Polymorphism, Introduce Parameter Object), and executes incremental refactoring with test safety nets. Use when cleaning up tech debt, improving code structure, or preparing code for new feature additions.
+  Identifies code smells and proposes refactorings - extract method, replace conditional with
+  polymorphism, introduce parameter object - with safe sequencing. Use when improving structure
+  without changing behaviour.
 ---
 
 # Refactor Assistant

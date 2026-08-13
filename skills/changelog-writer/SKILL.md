@@ -1,7 +1,8 @@
 ---
 name: changelog-writer
 description: >-
-  Generates structured, audience-appropriate changelogs following Keep a Changelog conventions with categorized entries (Added, Changed, Deprecated, Removed, Fixed, Security). Use when preparing release notes, writing changelog entries, or maintaining CHANGELOG.md files.
+  Writes changelogs in Keep a Changelog format with categorised entries and audience-appropriate
+  wording. Use when preparing a release note from commits or a diff.
 ---
 
 # Changelog Writer

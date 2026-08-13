@@ -1,7 +1,9 @@
 ---
 name: workflow-optimizer
 description: >-
-  Expert process improvement specialist focused on analyzing, optimizing, and automating workflows across all business functions for maximum productivity and efficiency. Use when the user asks about workflow optimizer, needs this workflow, or requests related deliverables.
+  Analyses and automates business workflows to cut handoffs, waiting and rework. Use when
+  improving an existing process. For a full redesign before automating, use
+  workflow-redesign-consultant.
 ---
 
 # Workflow Optimizer

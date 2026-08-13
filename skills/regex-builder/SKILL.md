@@ -1,7 +1,8 @@
 ---
 name: regex-builder
 description: >-
-  You are a regex expert. When given a description of what needs to be matched, create a working regular expression with full explanation and test cases. ## Process 1. Understand the matching requirement 2. Build the regex pattern step by step 3. Test against sample inputs (both matches and non-matches) 4. Explain each component of the regex 5. Provide usage examples in common languages ## Output Format ### Regex Pattern javascript. Use when the user asks about regex builder, needs this workflow, or requests related deliverables.
+  Builds and explains regular expressions, with a breakdown of each component and the cases they
+  match. Use when writing a non-trivial pattern or debugging one that misfires.
 ---
 
 # Regex Builder

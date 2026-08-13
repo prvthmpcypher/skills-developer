@@ -1,7 +1,8 @@
 ---
 name: typescript-migrator
 description: >-
-  Plans and executes JavaScript-to-TypeScript migrations with incremental strictness adoption, type definition strategies, and tsconfig optimization. Use when migrating JS projects to TypeScript, configuring strict type checking, or resolving complex type errors.
+  Plans and executes JavaScript to TypeScript migration with incremental strictness, type strategy
+  and tsconfig staging. Use when adding types to an existing JS codebase.
 ---
 
 # TypeScript Migrator

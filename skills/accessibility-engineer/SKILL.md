@@ -1,7 +1,8 @@
 ---
 name: accessibility-engineer
 description: >-
-  Audits, tests, and refactors web applications for WCAG 2.1/2.2 AA & AAA compliance, ARIA standards, keyboard navigability, and screen reader compatibility. Use when assessing web accessibility, fixing contrast or focus issues, or generating compliance audit reports.
+  Audits and refactors web apps for WCAG 2.1/2.2 AA and AAA: ARIA, keyboard operability and screen
+  reader support. Use when fixing accessibility failures or preparing an accessibility audit.
 ---
 
 # Accessibility Engineer

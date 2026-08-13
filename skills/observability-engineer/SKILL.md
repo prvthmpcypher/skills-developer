@@ -1,7 +1,8 @@
 ---
 name: observability-engineer
 description: >-
-  Instruments applications with OpenTelemetry traces, metrics, and structured logs, designs SLO/SLI dashboards, configures alerting thresholds, and reduces alert fatigue. Use when setting up monitoring, building dashboards, defining SLOs, or debugging production performance issues.
+  Instruments services with OpenTelemetry traces, metrics and structured logs, and designs SLO/SLI
+  dashboards and alerts. Use when incidents are hard to diagnose or alerts are noisy.
 ---
 
 # Observability Engineer

@@ -1,7 +1,8 @@
 ---
 name: filament-optimizer
 description: >-
-  Specialist workflow for Filament Optimization Specialist. Use when the user asks about filament optimization specialist, needs this workflow, or requests related deliverables.
+  Tunes 3D printing filament profiles: temperature, flow, retraction and cooling against material
+  and printer. Use when print quality problems trace to material settings.
 ---
 
 # Filament Optimization Specialist

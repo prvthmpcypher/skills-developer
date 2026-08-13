@@ -1,7 +1,8 @@
 ---
 name: dependency-upgrade-auditor
 description: >-
-  Audits project dependencies for outdated versions, security vulnerabilities (CVEs), license compliance, and breaking change risks, then produces prioritized upgrade roadmaps. Use when performing dependency audits, planning major version upgrades, or responding to security advisories.
+  Audits dependencies for outdated versions, CVEs, license compliance and breaking-change risk,
+  and sequences the upgrade. Use when planning a dependency bump or clearing a security alert.
 ---
 
 # Dependency Upgrade Auditor

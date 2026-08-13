@@ -1,7 +1,9 @@
 ---
 name: ci-cd-pipeline-builder
 description: >-
-  Designs and implements continuous integration and delivery pipelines with build, test, security scan, and deployment stages across GitHub Actions, GitLab CI, Jenkins, or CircleCI. Use when setting up CI/CD from scratch, optimizing pipeline performance, or adding automated quality gates.
+  Builds CI/CD pipelines with build, test, security scan and deploy stages across common
+  providers. Use when setting up or repairing a pipeline. Not for infrastructure itself - use
+  iac-provisioner.
 ---
 
 # CI/CD Pipeline Builder

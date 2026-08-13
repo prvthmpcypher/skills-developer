@@ -1,7 +1,8 @@
 ---
 name: api-lifecycle-engineer
 description: >-
-  Designs, documents, mocks, and tests REST, GraphQL, and gRPC APIs using OpenAPI/Swagger specs, contract testing, and automated mock servers. Use when authoring API schemas, writing API documentation, generating mock servers, or designing integration test suites.
+  Designs, documents, mocks and tests REST, GraphQL and gRPC APIs with OpenAPI and contract
+  testing. Use when designing an API surface. For GraphQL schema depth, use graphql-api-designer.
 ---
 
 # API Lifecycle Engineer

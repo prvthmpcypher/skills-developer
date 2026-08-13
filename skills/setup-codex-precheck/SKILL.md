@@ -1,7 +1,8 @@
 ---
 name: setup-codex-precheck
 description: >-
-  Specialist workflow for Setup Codex Precheck. Use when the user asks about setup codex precheck, needs this workflow, or requests related deliverables.
+  Runs pre-flight checks before a Codex session: environment, dependencies, credentials and repo
+  state. Use when preparing a repository for agent-driven work.
 ---
 
 # Setup codex pre-check

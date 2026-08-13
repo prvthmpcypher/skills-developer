@@ -1,7 +1,8 @@
 ---
 name: ai-eval-suite-builder
 description: >-
-  Designs and implements AI/LLM evaluation harnesses including regression test datasets, output scoring rubrics, prompt drift detection, and benchmark suites for model quality assurance. Use when building eval pipelines for AI features, detecting prompt regression, or scoring LLM output quality.
+  Builds LLM evaluation harnesses: regression datasets, scoring rubrics, prompt drift detection
+  and benchmarks. Use when replacing eyeballed output quality with automated evals.
 ---
 
 # AI Evaluation Suite Builder

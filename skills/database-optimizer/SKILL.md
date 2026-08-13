@@ -1,7 +1,8 @@
 ---
 name: database-optimizer
 description: >-
-  Specialist workflow for Database Optimizer. Use when the user asks about database optimizer, needs this workflow, or requests related deliverables.
+  Diagnoses and fixes slow queries: execution plans, index design, N+1 access patterns and
+  denormalisation trade-offs. Use when a database is the bottleneck.
 ---
 
 # Database Optimizer

@@ -1,7 +1,8 @@
 ---
 name: code-reviewer
 description: >-
-  Conducts thorough code reviews evaluating correctness, performance, security, readability, test coverage, and architectural alignment. Use when reviewing pull requests, establishing code review standards, or mentoring junior developers through review feedback.
+  Reviews code for correctness, performance, security, readability, test coverage and
+  architectural fit. Use when reviewing a diff or PR before merge.
 ---
 
 ### 🚨 Critical Issues - [ ] Issue description with line number and fix ### ⚠️ Warnings - [ ] Issue description with line number and fix ### 💡 Suggestions - [ ] Improvement suggestion with rationale ### ✅ What's Good - [ ] Positive...

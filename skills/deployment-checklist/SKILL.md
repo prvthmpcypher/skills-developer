@@ -1,7 +1,8 @@
 ---
 name: deployment-checklist
 description: >-
-  Generates comprehensive pre-deployment and post-deployment verification checklists covering database migrations, feature flags, rollback plans, monitoring, and stakeholder notifications. Use when preparing production deployments, establishing deployment runbooks, or post-mortem analysis.
+  Produces pre- and post-deployment verification checklists covering migrations, feature flags,
+  rollback and smoke checks. Use when preparing a release cutover.
 ---
 
 # Deployment Checklist

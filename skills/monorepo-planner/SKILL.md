@@ -1,7 +1,8 @@
 ---
 name: monorepo-planner
 description: >-
-  Architects monorepo structures with workspace management (Turborepo, Nx, pnpm workspaces), build caching, affected-module detection, and CI optimization. Use when migrating to monorepo, setting up workspace tooling, or optimizing monorepo build performance.
+  Structures monorepos with Turborepo, Nx or pnpm workspaces, build caching and affected-module
+  detection. Use when a repo's builds are slow or its boundaries unclear.
 ---
 
 # Monorepo Planner

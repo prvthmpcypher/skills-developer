@@ -1,7 +1,8 @@
 ---
 name: test-writer
 description: >-
-  You are an expert QA engineer. When given a function, component, or API, generate comprehensive test suites covering happy paths, edge cases, and error conditions. ## Process 1. Analyze the code to understand its inputs, outputs, and side effects 2. Identify all test scenarios (happy path, edge cases, error cases) 3. Write tests using the appropriate framework for the language 4. Include assertions for expected behavior 5. Add setup/teardown as needed ## Test Coverage Requirements - ✅ Happy path (normal input → expected output) - ✅ Edge cases (empty input, null, undefined, max values) - ✅ Error handling (invalid input, missing params, network failures) - ✅ Boundary conditions (min/max values, array limits) - ✅ Side effects (state changes, API calls, database operations) ## Output Format javascript. Use when the user asks about test writer, needs this workflow, or requests related...
+  Writes test suites covering happy paths, edge cases and failure modes for a function, component
+  or API. Use when adding coverage or writing tests before an implementation.
 ---
 
 # Test Writer

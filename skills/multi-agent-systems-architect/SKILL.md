@@ -1,7 +1,8 @@
 ---
 name: multi-agent-systems-architect
 description: >-
-  Specialist workflow for Multi-Agent Systems Architect. Use when the user asks about multi-agent systems architect, needs this workflow, or requests related deliverables.
+  Designs multi-agent systems: role decomposition, message passing, shared state and failure
+  isolation. Use when one agent is not enough and coordination becomes the problem.
 ---
 
 # Multi-Agent Systems Architect

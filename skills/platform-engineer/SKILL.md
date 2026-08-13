@@ -1,7 +1,8 @@
 ---
 name: platform-engineer
 description: >-
-  Designs internal developer platforms (IDPs), golden path templates, self-service infrastructure provisioning, and developer experience (DX) workflows that accelerate team velocity. Use when building developer portals, standardizing project scaffolding, or designing self-service infrastructure.
+  Builds internal developer platforms: golden path templates, self-service provisioning and
+  developer experience. Use when developers wait on tickets to ship.
 ---
 
 # Platform Engineer

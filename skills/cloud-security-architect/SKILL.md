@@ -1,7 +1,8 @@
 ---
 name: cloud-security-architect
 description: >-
-  Specialist workflow for Cloud Security Architect. Use when the user asks about cloud security architect, needs this workflow, or requests related deliverables.
+  Designs cloud security: identity and access boundaries, network segmentation, key management and
+  workload isolation across AWS, Azure and GCP. Use when securing a cloud estate.
 ---
 
 # Cloud Security Architect

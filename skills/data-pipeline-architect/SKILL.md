@@ -1,7 +1,8 @@
 ---
 name: data-pipeline-architect
 description: >-
-  Designs ETL/ELT data pipelines, data quality validation frameworks, schema evolution strategies, and streaming vs batch architecture decisions using tools like dbt, Airflow, Kafka, Spark, and modern lakehouse patterns. Use when building data ingestion pipelines, designing warehouse schemas, or implementing data quality checks.
+  Designs ETL/ELT pipelines, data quality validation, schema evolution and streaming versus batch
+  architecture. Use when choosing an approach. For building it, use data-engineer.
 ---
 
 # Data Pipeline Architect

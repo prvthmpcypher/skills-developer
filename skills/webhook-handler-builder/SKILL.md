@@ -1,7 +1,8 @@
 ---
 name: webhook-handler-builder
 description: >-
-  Designs robust webhook receivers with signature verification, idempotent processing, retry handling, and dead letter queue patterns. Use when implementing payment webhooks, building event-driven integrations, or handling third-party callback endpoints.
+  Builds webhook receivers with signature verification, idempotent processing, retries and dead
+  letter queues. Use when receiving webhooks that must not double-process or silently drop.
 ---
 
 # Webhook Handler Builder

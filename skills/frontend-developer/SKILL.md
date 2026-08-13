@@ -1,7 +1,8 @@
 ---
 name: frontend-developer
 description: >-
-  Expert frontend developer specializing in modern web technologies, React/Vue/Angular frameworks, UI implementation, and performance optimization. Use when the user asks about frontend developer, needs this workflow, or requests related deliverables.
+  Implements web UIs in React, Vue or Angular with attention to performance and correctness. Use
+  when building frontend features. Not for visual design - use ui-designer or frontend-design.
 ---
 
 # Frontend Developer

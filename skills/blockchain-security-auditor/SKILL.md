@@ -1,7 +1,8 @@
 ---
 name: blockchain-security-auditor
 description: >-
-  Specialist workflow for Blockchain Security Auditor. Use when the user asks about blockchain security auditor, needs this workflow, or requests related deliverables.
+  Audits smart contracts and on-chain systems for reentrancy, access control flaws, oracle
+  manipulation and economic exploits. Use when reviewing contract security before deployment.
 ---
 
 # Blockchain Security Auditor

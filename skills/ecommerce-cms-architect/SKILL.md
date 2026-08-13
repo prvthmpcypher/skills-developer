@@ -1,7 +1,8 @@
 ---
 name: ecommerce-cms-architect
 description: >-
-  Architects and implements CMS-based e-commerce solutions, shopping cart pipelines, checkout flows, payment gateway integrations, and product catalog management across platforms like WordPress/WooCommerce, Drupal Commerce, Shopify, and Headless CMS. Use when building or optimizing CMS e-commerce stores.
+  Architects CMS-based commerce: cart pipelines, checkout flows, payment gateway integration and
+  PCI-aware handling. Use when building or hardening an online store.
 ---
 
 # E-Commerce & CMS Architect

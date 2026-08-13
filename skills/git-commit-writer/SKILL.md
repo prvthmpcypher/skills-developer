@@ -1,7 +1,8 @@
 ---
 name: git-commit-writer
 description: >-
-  Crafts clear, conventional commit messages following Conventional Commits specification with proper type prefixes, scopes, and breaking change annotations. Use when writing commit messages, establishing team commit conventions, or generating automated changelogs from commit history.
+  Writes Conventional Commits messages with correct type, scope and breaking-change footers. Use
+  when committing. Not for PR descriptions - use pr-description-writer.
 ---
 
 ### Recommended Commit: javascript. Use when the user asks about git commit writer, needs this workflow, or requests related deliverables.

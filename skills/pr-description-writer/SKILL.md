@@ -1,7 +1,8 @@
 ---
 name: pr-description-writer
 description: >-
-  Writes comprehensive pull request descriptions with context, motivation, implementation approach, testing performed, screenshots, and reviewer guidance. Use when creating PRs, establishing PR template standards, or improving code review efficiency.
+  Writes pull request descriptions with context, motivation, approach, testing performed and
+  review guidance. Use when opening a PR. Not for commit messages - use git-commit-writer.
 ---
 
 # PR Description Writer

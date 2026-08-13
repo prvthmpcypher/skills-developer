@@ -1,7 +1,8 @@
 ---
 name: trigger-dev
 description: >-
-  export const myTask = task({ id: 'my-task', run: async (payload: { data: string }, { ctx }) => { return { result: 'done' }; }, }); ### Schema-Validated Task typescript import { schemaTask } from '@trigger.dev/sdk'; import { z } from 'zod';. Use when the user asks about trigger.dev, needs this workflow, or requests related deliverables.
+  Builds Trigger.dev background jobs and workflows: task definitions, retries, scheduling and
+  observability. Use when running long or scheduled work off the request path.
 ---
 
 # Trigger.dev Skill

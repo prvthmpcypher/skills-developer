@@ -1,7 +1,9 @@
 ---
 name: appsec-architect
 description: >-
-  Performs application security architecture reviews, threat modeling (STRIDE), code vulnerability auditing (OWASP Top 10), and secure design specifications. Use when auditing codebases for vulnerabilities, designing authentication/authorization flows, or reviewing security posture.
+  Runs application security reviews: STRIDE threat modelling, OWASP Top 10 code auditing and
+  secure design. Use when threat modelling a system. Not for live testing - use
+  penetration-tester.
 ---
 
 # Application Security Architect

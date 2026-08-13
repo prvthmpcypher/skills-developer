@@ -1,7 +1,8 @@
 ---
 name: data-engineer
 description: >-
-  Expert data engineer specializing in building reliable data pipelines, lakehouse architectures, and scalable data infrastructure. Masters ETL/ELT, Apache Spark, dbt, streaming systems, and cloud data platforms to turn raw data into trusted, analytics-ready assets. Use when the user asks about data engineer, needs this workflow, or requests related deliverables.
+  Builds data pipelines, lakehouse architectures and data infrastructure. Use for implementation
+  and operation. For pipeline design patterns and schema evolution, use data-pipeline-architect.
 ---
 
 # Data Engineer Agent

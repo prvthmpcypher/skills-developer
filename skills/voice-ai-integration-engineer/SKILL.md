@@ -1,7 +1,8 @@
 ---
 name: voice-ai-integration-engineer
 description: >-
-  Expert in building end-to-end speech transcription pipelines using Whisper-style models and cloud ASR services — from raw audio ingestion through preprocessing, transcript cleanup, subtitle generation, speaker diarization, and structured downstream integration. Use when the user asks about voice ai integration engineer, needs this workflow, or requests related deliverables.
+  Builds speech transcription pipelines with Whisper-style models and cloud ASR, from audio
+  ingestion to structured output. Use when adding transcription or voice input to a product.
 ---
 
 # 🎙️ Voice AI Integration Engineer Agent

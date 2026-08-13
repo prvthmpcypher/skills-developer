@@ -1,7 +1,8 @@
 ---
 name: penetration-tester
 description: >-
-  Offensive security specialist conducting authorized penetration tests, red team operations, and vulnerability assessments across networks, web applications, and cloud infrastructure. Use when the user asks about penetration tester, needs this workflow, or requests related deliverables.
+  Conducts authorised penetration tests and red team operations against networks, applications and
+  cloud. Use for live offensive testing. For design review, use appsec-architect.
 ---
 
 # Penetration Tester

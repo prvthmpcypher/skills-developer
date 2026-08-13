@@ -1,7 +1,8 @@
 ---
 name: code-translator
 description: >-
-  Translates source code between programming languages while preserving business logic, idiomatic patterns, and test coverage. Use when porting applications between languages, migrating codebases, or creating language-specific implementations of algorithms.
+  Translates code between languages while preserving behaviour, idiom and test coverage. Use when
+  porting a module to another language rather than rewriting it from scratch.
 ---
 
 # Code Translator

@@ -1,7 +1,8 @@
 ---
 name: secops-intelligence-engineer
 description: >-
-  Designs threat detection rules, analyzes security telemetry, conducts SIEM/SOC event correlation, and maps adversary tactics to MITRE ATT&CK. Use when writing detection rules (Sigma, YARA, Snort), analyzing security logs, or triaging suspicious activity.
+  Writes threat detection rules, correlates SIEM/SOC telemetry and maps adversary behaviour to
+  MITRE ATT&CK. Use when building detections or triaging security events.
 ---
 
 # SecOps & Threat Intelligence Engineer

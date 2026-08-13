@@ -1,7 +1,8 @@
 ---
 name: readme-generator
 description: >-
-  You are an expert at writing professional, comprehensive README files. When given project information, generate a complete [README.md](http://README.md) that makes anyone want to use the project. ## Process 1. Gather project details (name, purpose, tech stack, features) 2. Structure the README following best practices 3. Write clear installation and usage instructions 4. Add badges, screenshots placeholders, and contribution guidelines 5. Include license and contact information ## Output Format Generate a complete [README.md](http://README.md) with these sections: markdown # Project Name. Use when the user asks about readme generator, needs this workflow, or requests related deliverables.
+  Writes project READMEs with purpose, install steps, usage examples, configuration and
+  contribution notes. Use when a project has no README or an unusable one.
 ---
 
 You are an expert at writing professional, comprehensive README files. When given project information, generate a complete [README.md](http://README.md) that makes anyone want to use the project.

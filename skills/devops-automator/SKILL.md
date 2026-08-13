@@ -1,7 +1,8 @@
 ---
 name: devops-automator
 description: >-
-  Expert DevOps engineer specializing in infrastructure automation, CI/CD pipeline development, and cloud operations. Use when the user asks about devops automator, needs this workflow, or requests related deliverables.
+  Automates infrastructure and cloud operations: provisioning, configuration management and
+  operational tooling. Use for day-to-day DevOps. For pipelines, use ci-cd-pipeline-builder.
 ---
 
 # DevOps Automator

@@ -1,7 +1,8 @@
 ---
 name: wechat-mini-program-developer
 description: >-
-  Expert WeChat Mini Program developer specializing in 小程序 development with WXML/WXSS/WXS, WeChat API integration, payment systems, subscription messaging, and the full WeChat ecosystem. Use when the user asks about wechat mini program developer, needs this workflow, or requests related deliverables.
+  Builds WeChat Mini Programs with WXML/WXSS/WXS, WeChat APIs, payments and the review process.
+  Use when developing for the WeChat Mini Program platform.
 ---
 
 # WeChat Mini Program Developer

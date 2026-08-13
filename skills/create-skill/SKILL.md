@@ -1,7 +1,9 @@
 ---
 name: create-skill
 description: >-
-  Role statement — one sentence establishing expertise. Use when the user asks about create skill, needs this workflow, or requests related deliverables.
+  Scaffolds a new Agent Skill: frontmatter with a trigger-rich description under 250 chars,
+  structured body and supporting files. Use when authoring a new skill. Not for reviewing one -
+  use skill-linter.
 ---
 
 # Skill Creation Guide

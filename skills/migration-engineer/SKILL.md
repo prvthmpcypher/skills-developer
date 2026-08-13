@@ -1,7 +1,9 @@
 ---
 name: migration-engineer
 description: >-
-  Plans and executes zero-downtime database migrations, cloud-to-cloud transitions, monolith-to-microservices decomposition, and framework version upgrades with rollback safety nets. Use when migrating databases, transitioning cloud providers, breaking apart monoliths, or upgrading major framework versions.
+  Executes zero-downtime migrations: database cutovers, cloud-to-cloud moves and monolith
+  decomposition with rollback. Use when moving live data or traffic. For planning debt reduction,
+  use legacy-code-modernizer.
 ---
 
 # Migration Engineer

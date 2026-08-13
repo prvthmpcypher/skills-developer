@@ -1,7 +1,8 @@
 ---
 name: error-boundary-designer
 description: >-
-  Designs comprehensive error handling architectures including error boundaries, fallback UIs, retry strategies, circuit breakers, and graceful degradation patterns. Use when implementing error handling systems, designing resilient UIs, or architecting fault-tolerant services.
+  Designs error handling: boundaries, fallback UIs, retry strategy, circuit breakers and
+  degradation paths. Use when failures cascade or surface as blank screens.
 ---
 
 # Error Boundary Designer

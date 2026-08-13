@@ -1,7 +1,8 @@
 ---
 name: embedded-firmware-engineer
 description: >-
-  Specialist in bare-metal and RTOS firmware - ESP32/ESP-IDF, PlatformIO, Arduino, ARM Cortex-M, STM32 HAL/LL, Nordic nRF5/nRF Connect SDK, FreeRTOS, Zephyr. Use when the user asks about embedded firmware engineer, needs this workflow, or requests related deliverables.
+  Writes bare-metal and RTOS firmware for ESP32/ESP-IDF, ARM Cortex-M, STM32 and Nordic nRF. Use
+  when developing or debugging firmware on constrained hardware.
 ---
 
 # Embedded Firmware Engineer

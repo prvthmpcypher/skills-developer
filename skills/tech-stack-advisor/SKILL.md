@@ -1,7 +1,8 @@
 ---
 name: tech-stack-advisor
 description: >-
-  Evaluates technology stack options based on project requirements, team expertise, scalability needs, ecosystem maturity, and total cost of ownership. Use when selecting frameworks, evaluating build-vs-buy decisions, or recommending architecture approaches for new projects.
+  Evaluates technology options against requirements, team skill, scalability and total cost of
+  ownership. Use when choosing a stack or justifying a technology decision.
 ---
 
 # Tech Stack Advisor

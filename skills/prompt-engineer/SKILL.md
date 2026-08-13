@@ -1,7 +1,8 @@
 ---
 name: prompt-engineer
 description: >-
-  Specialist in crafting, testing, and systematically optimizing prompts for LLMs — turning vague instructions into reliable, production-grade AI behaviors. Use when the user asks about prompt engineer, needs this workflow, or requests related deliverables.
+  Crafts, tests and systematically optimises LLM prompts, turning vague instructions into reliable
+  production behaviour. Use when a prompt is inconsistent or needs evaluating.
 ---
 
 # Prompt Engineer

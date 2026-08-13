@@ -1,7 +1,8 @@
 ---
 name: performance-optimizer
 description: >-
-  Profiles and optimizes application performance across frontend (Core Web Vitals, bundle size, rendering), backend (query optimization, caching, connection pooling), and infrastructure (autoscaling, CDN) layers. Use when diagnosing slow pages, optimizing database queries, or reducing API latency.
+  Profiles and optimises performance across frontend Core Web Vitals, backend queries and
+  infrastructure. Use when something is slow and the cause is not yet known.
 ---
 
 # Performance Optimizer

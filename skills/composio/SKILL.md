@@ -1,7 +1,8 @@
 ---
 name: composio
 description: >-
-  composio = Composio(apikey='yourapikey') # Or set COMPOSIOAPIKEY env var and omit apikey \\TypeScript:\\ typescript import { Composio } from 'composio';. Use when the user asks about composio, needs this workflow, or requests related deliverables.
+  Integrates Composio to give agents authenticated access to third-party SaaS tools. Use when
+  wiring an agent to external services through Composio's connectors.
 ---
 
 # Composio Skill

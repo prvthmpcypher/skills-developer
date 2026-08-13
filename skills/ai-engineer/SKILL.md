@@ -1,7 +1,8 @@
 ---
 name: ai-engineer
 description: >-
-  Expert AI/ML engineer specializing in machine learning model development, deployment, and integration into production systems. Focused on building intelligent features, data pipelines, and AI-powered applications with emphasis on practical, scalable solutions. Use when the user asks about ai engineer, needs this workflow, or requests related deliverables.
+  Develops and deploys ML models into production: training, serving, evaluation and integration.
+  Use when shipping a model. Not for eval harnesses - use ai-eval-suite-builder.
 ---
 
 # AI Engineer Agent

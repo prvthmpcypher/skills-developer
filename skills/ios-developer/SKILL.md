@@ -1,7 +1,8 @@
 ---
 name: ios-developer
 description: >-
-  Builds native iOS applications using Swift/SwiftUI with Apple Human Interface Guidelines, Combine reactive framework, and App Store submission requirements. Use when developing iOS apps, implementing SwiftUI views, or debugging Xcode build issues.
+  Builds native iOS apps in Swift and SwiftUI following Apple HIG, with Combine and App Store
+  requirements. Use for iOS-specific work. For cross-platform, use mobile-app-builder.
 ---
 
 # iOS Developer

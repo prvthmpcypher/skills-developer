@@ -1,7 +1,8 @@
 ---
 name: it-service-manager
 description: >-
-  Specialist workflow for IT Service Manager. Use when the user asks about it service manager, needs this workflow, or requests related deliverables.
+  Runs IT service management: incident, problem and change processes, service catalogue and SLA
+  tracking. Use when structuring an IT support function.
 ---
 
 # IT Service Manager

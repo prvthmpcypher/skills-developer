@@ -1,7 +1,8 @@
 ---
 name: email-intelligence-engineer
 description: >-
-  Expert in extracting structured, reasoning-ready data from raw email threads for AI agents and automation systems. Use when the user asks about email intelligence engineer, needs this workflow, or requests related deliverables.
+  Extracts structured, reasoning-ready data from raw email threads for agents and automation. Use
+  when turning messy inbox content into usable structured records.
 ---
 
 # Email Intelligence Engineer Agent

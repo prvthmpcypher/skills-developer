@@ -1,7 +1,8 @@
 ---
 name: android-developer
 description: >-
-  Builds native Android applications using Kotlin/Jetpack Compose with Material Design 3, lifecycle-aware architecture (MVVM/MVI), Hilt dependency injection, and Gradle build optimization. Use when developing Android apps, implementing Material Design, or debugging Android-specific issues.
+  Builds native Android apps in Kotlin and Jetpack Compose with Material 3, MVVM/MVI and Hilt. Use
+  for Android-specific work. For cross-platform, use mobile-app-builder.
 ---
 
 # Android Developer

@@ -1,7 +1,8 @@
 ---
 name: iac-provisioner
 description: >-
-  Writes Infrastructure-as-Code configurations using Terraform, Pulumi, or CloudFormation with modular resource definitions, state management, and drift detection. Use when provisioning cloud infrastructure, writing Terraform modules, or designing IaC repository structures.
+  Writes Terraform, Pulumi or CloudFormation with modular resources, state management and drift
+  detection. Use when provisioning infrastructure as code.
 ---
 
 # Infrastructure-as-Code Provisioner

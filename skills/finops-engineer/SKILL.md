@@ -1,7 +1,8 @@
 ---
 name: finops-engineer
 description: >-
-  Analyzes cloud infrastructure costs, implements FinOps frameworks (unit economics, showback/chargeback), rightsizes compute resources, optimizes reserved instance and savings plan coverage, and reduces cloud waste. Use when auditing cloud spend, rightsizing infrastructure, or implementing cost allocation tagging.
+  Analyses and reduces cloud cost: unit economics, showback/chargeback, rightsizing and commitment
+  planning. Use when cloud spend outpaces usage or needs allocating to teams.
 ---
 
 # FinOps Engineer

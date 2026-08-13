@@ -1,7 +1,8 @@
 ---
 name: sre-site-reliability-engineer
 description: >-
-  Expert site reliability engineer specializing in SLOs, error budgets, observability, chaos engineering, and toil reduction for production systems at scale. Use when the user asks about sre (site reliability engineer), needs this workflow, or requests related deliverables.
+  Practises SRE: SLOs, error budgets, chaos engineering and toil reduction. Use when setting
+  reliability targets. For instrumentation, use observability-engineer.
 ---
 
 # SRE (Site Reliability Engineer) Agent

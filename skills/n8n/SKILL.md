@@ -1,7 +1,8 @@
 ---
 name: n8n
 description: >-
-  Specialist workflow for n8n. Use when the user asks about n8n, needs this workflow, or requests related deliverables.
+  Builds n8n automation workflows: node wiring, credentials, error branches and scheduling. Use
+  when automating in n8n. Not for governance review - use automation-governance-architect.
 ---
 
 # n8n Skill

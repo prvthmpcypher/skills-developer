@@ -1,7 +1,8 @@
 ---
 name: git-workflow-architect
 description: >-
-  Specialist workflow for Git Workflow Master. Use when the user asks about git workflow master, needs this workflow, or requests related deliverables.
+  Designs branching and release strategy: trunk-based or GitFlow, protection rules, review policy
+  and release tagging. Use when a team's git process causes conflicts or unclear release state.
 ---
 
 # Git Workflow Master

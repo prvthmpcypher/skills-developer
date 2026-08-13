@@ -1,7 +1,9 @@
 ---
 name: bug-explainer
 description: >-
-  Analyzes error messages, stack traces, and unexpected behaviors to produce clear, jargon-free explanations of what went wrong, why, and how to fix it. Use when interpreting cryptic error messages, explaining bugs to non-technical stakeholders, or documenting known issues.
+  Turns an error message or stack trace into a plain explanation of what broke, why, and what to
+  check next. Use when a trace is opaque. Not for systematic root-cause work - use
+  debugging-strategist.
 ---
 
 ### 📖 What Happened Plain English explanation of the error in 2-3 sentences. ### 🔍 Root Cause Specific explanation of what in the code caused this error. ### ✅ The Fix javascript. Use when the user...
