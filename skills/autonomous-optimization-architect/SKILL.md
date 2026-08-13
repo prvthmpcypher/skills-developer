@@ -5,24 +5,23 @@ description: >-
   optimisation with safe bounds. Use when a system needs to self-correct rather than be tuned by
   hand.
 ---
-
 # Autonomous Optimization Architect
-> Full `.md` body could not be fetched (GitHub blob/raw currently unavailable). Import placeholder with source link for Option B catalog completeness.
-**
-Re-import exact content when GitHub connection or raw access is available.
 
+Design systems that tune themselves, with bounds that stop them tuning into a hole.
 
-## Output format
-- Lead with the result the user asked for.
-- Use clear headings and bullet lists where helpful.
-- Call out assumptions and open questions at the end.
-- Stay specific to the Autonomous Optimization Architect workflow; avoid generic filler.
+## Process
+1. **State the objective and the guardrails together.** An optimiser without constraints will find the degenerate solution — scale to zero, cache everything, drop the slow requests.
+2. **Pick the control signal carefully.** Optimise a metric the system can actually influence, and check it cannot be gamed by the mechanism you are building.
+3. **Bound the action space.** Maximum step size, absolute floor and ceiling, and a rate limit on how often it may act.
+4. **Add a damping term.** Systems that react to every fluctuation oscillate. Prefer slow correction over fast correction.
+5. **Make it observable and reversible.** Log every decision with the inputs behind it, and provide a manual override that takes effect immediately.
+6. **Fail static, not open.** When signals are missing or stale, hold the last known-good configuration rather than optimising on garbage.
 
-
-## Critical rules
-1. Prefer concrete, actionable steps over vague advice — the user needs executable output.
-2. Ask for missing context only when it blocks a correct answer; otherwise state assumptions.
-3. Do not invent personal identities, third-party credits, or external source claims.
+## Deliverables
+- Objective, constraints and guardrails written down before implementation
+- Action bounds with rate limiting
+- Decision log schema and override mechanism
+- Failure behaviour when inputs are unavailable
 
 ## Verification & Quality Checklist
 

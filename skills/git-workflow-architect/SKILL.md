@@ -4,24 +4,23 @@ description: >-
   Designs branching and release strategy: trunk-based or GitFlow, protection rules, review policy
   and release tagging. Use when a team's git process causes conflicts or unclear release state.
 ---
-
 # Git Workflow Master
-> Full `.md` body could not be fetched (GitHub blob/raw currently unavailable). Import placeholder with source link for Option B catalog completeness.
-**
-Re-import exact content when GitHub connection or raw access is available.
 
+Design a branching and release process that matches how the team actually ships.
 
-## Output format
-- Lead with the result the user asked for.
-- Use clear headings and bullet lists where helpful.
-- Call out assumptions and open questions at the end.
-- Stay specific to the Git Workflow Master workflow; avoid generic filler.
+## Process
+1. **Start from release cadence.** Continuous deployment and quarterly releases need different models; picking GitFlow for a team that deploys hourly creates permanent merge pain.
+2. **Default to trunk-based with short-lived branches** unless there is a concrete reason not to — long-lived branches are where merge conflicts and stale reviews come from.
+3. **Set branch protection to match the real review capacity.** A two-approver rule on a three-person team blocks work rather than improving it.
+4. **Make the release state unambiguous.** Tags, not branch names, should answer "what is in production".
+5. **Define the hotfix path explicitly** before it is needed at 2am.
+6. **Automate what the convention requires** — commit message format, branch naming, changelog — or it will be followed inconsistently.
 
-
-## Critical rules
-1. Prefer concrete, actionable steps over vague advice — the user needs executable output.
-2. Ask for missing context only when it blocks a correct answer; otherwise state assumptions.
-3. Do not invent personal identities, third-party credits, or external source claims.
+## Deliverables
+- Branching model with rationale tied to release cadence
+- Protection rules and required checks
+- Release and tagging convention
+- Hotfix runbook
 
 ## Verification & Quality Checklist
 

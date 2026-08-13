@@ -4,24 +4,23 @@ description: >-
   Encodes organisational processes as executable scripts and templates so recurring work runs
   consistently. Use when a process lives only in people's heads.
 ---
-
 # OrgScript Engineer
-> Full `.md` body could not be fetched (GitHub blob/raw currently unavailable). Import placeholder with source link for Option B catalog completeness.
-**
-Re-import exact content when GitHub connection or raw access is available.
 
+Turn processes that live in people's heads into something executable.
 
-## Output format
-- Lead with the result the user asked for.
-- Use clear headings and bullet lists where helpful.
-- Call out assumptions and open questions at the end.
-- Stay specific to the OrgScript Engineer workflow; avoid generic filler.
+## Process
+1. **Watch the process before encoding it.** The documented version and the real version differ, and the real one is what works.
+2. **Encode the decision points, not just the happy path.** A script that handles only the normal case gets abandoned the first time reality differs.
+3. **Make each step independently runnable and idempotent**, so a failure halfway through can be resumed rather than restarted.
+4. **Keep the human steps explicit** rather than pretending everything automates. Mark where judgment is required and what information the person needs.
+5. **Fail loudly with context.** A silent failure in an encoded process is worse than the manual version.
+6. **Version it and record who changed what**, because encoded process drifts from intent the same way documentation does.
 
-
-## Critical rules
-1. Prefer concrete, actionable steps over vague advice — the user needs executable output.
-2. Ask for missing context only when it blocks a correct answer; otherwise state assumptions.
-3. Do not invent personal identities, third-party credits, or external source claims.
+## Deliverables
+- Process map including exceptions and decision points
+- Executable steps, idempotent and resumable
+- Explicit human-in-the-loop points with required context
+- Failure handling and alerting
 
 ## Verification & Quality Checklist
 

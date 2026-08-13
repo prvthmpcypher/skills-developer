@@ -4,24 +4,23 @@ description: >-
   Audits smart contracts and on-chain systems for reentrancy, access control flaws, oracle
   manipulation and economic exploits. Use when reviewing contract security before deployment.
 ---
-
 # Blockchain Security Auditor
-> Full `.md` body could not be fetched (GitHub blob/raw currently unavailable). Import placeholder with source link for Option B catalog completeness.
-**
-Re-import exact content when GitHub connection or raw access is available.
 
+Audit smart contracts for the failure modes that actually drain funds.
 
-## Output format
-- Lead with the result the user asked for.
-- Use clear headings and bullet lists where helpful.
-- Call out assumptions and open questions at the end.
-- Stay specific to the Blockchain Security Auditor workflow; avoid generic filler.
+## Process
+1. **Map value flow and trust boundaries first.** Where does value enter, leave, and who can move it? Most exploits live at a boundary the developer did not think of as one.
+2. **Check access control on every state-changing function.** Missing or wrong modifiers remain the most common serious finding.
+3. **Trace reentrancy paths**, including cross-function and cross-contract. Verify checks-effects-interactions ordering rather than trusting a guard.
+4. **Examine every external call**: return values checked, gas assumptions, and what happens if the callee is malicious or reverts.
+5. **Scrutinise price and oracle dependencies.** Spot prices from an AMM are manipulable within a transaction; require time-weighting or multiple sources.
+6. **Review upgradeability**: storage layout compatibility, initialiser protection, and who holds the upgrade key.
+7. **Model the economics, not just the code.** Flash-loan-funded manipulation is a design flaw, not a bug.
 
-
-## Critical rules
-1. Prefer concrete, actionable steps over vague advice — the user needs executable output.
-2. Ask for missing context only when it blocks a correct answer; otherwise state assumptions.
-3. Do not invent personal identities, third-party credits, or external source claims.
+## Deliverables
+- Findings by severity with a concrete exploit path per issue
+- Proof-of-concept test for each critical and high finding
+- Remediation with the fix and why it closes the path
 
 ## Verification & Quality Checklist
 

@@ -4,24 +4,23 @@ description: >-
   Tunes 3D printing filament profiles: temperature, flow, retraction and cooling against material
   and printer. Use when print quality problems trace to material settings.
 ---
-
 # Filament Optimization Specialist
-> Full `.md` body could not be fetched (GitHub blob/raw currently unavailable). Import placeholder with source link for Option B catalog completeness.
-**
-Re-import exact content when GitHub connection or raw access is available.
 
+Diagnose 3D print quality problems that trace back to material and thermal settings.
 
-## Output format
-- Lead with the result the user asked for.
-- Use clear headings and bullet lists where helpful.
-- Call out assumptions and open questions at the end.
-- Stay specific to the Filament Optimization Specialist workflow; avoid generic filler.
+## Process
+1. **Identify the symptom precisely** — stringing, layer separation, warping, under-extrusion, elephant foot and poor overhangs each point at different settings.
+2. **Change one variable at a time.** Print a calibration tower rather than adjusting four settings and printing one part.
+3. **Start with temperature.** Run a temperature tower for the specific filament and spool; published ranges are a starting point, not a value.
+4. **Then flow and extrusion multiplier**, measured against a single-wall cube's actual wall thickness.
+5. **Then retraction** — distance and speed, tuned on a stringing test, and different for direct drive versus bowden.
+6. **Then cooling**, which trades overhang quality against layer adhesion. PLA and ABS want opposite answers.
+7. **Record the working profile per filament and printer**, including ambient conditions. Humidity in the filament explains a surprising share of unexplained failures.
 
-
-## Critical rules
-1. Prefer concrete, actionable steps over vague advice — the user needs executable output.
-2. Ask for missing context only when it blocks a correct answer; otherwise state assumptions.
-3. Do not invent personal identities, third-party credits, or external source claims.
+## Deliverables
+- Symptom-to-cause diagnosis
+- Calibration sequence with one variable per test
+- Saved profile per material and printer with conditions noted
 
 ## Verification & Quality Checklist
 

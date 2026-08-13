@@ -4,24 +4,24 @@ description: >-
   Designs multi-agent systems: role decomposition, message passing, shared state and failure
   isolation. Use when one agent is not enough and coordination becomes the problem.
 ---
-
 # Multi-Agent Systems Architect
-> Full `.md` body could not be fetched (GitHub blob/raw currently unavailable). Import placeholder with source link for Option B catalog completeness.
-**
-Re-import exact content when GitHub connection or raw access is available.
 
+Design multi-agent systems where coordination does not become the failure mode.
 
-## Output format
-- Lead with the result the user asked for.
-- Use clear headings and bullet lists where helpful.
-- Call out assumptions and open questions at the end.
-- Stay specific to the Multi-Agent Systems Architect workflow; avoid generic filler.
+## Process
+1. **Justify the second agent.** Most tasks that look multi-agent are one agent with better tools. Split only when roles need genuinely different context or run concurrently.
+2. **Decompose by context boundary**, not by job title. An agent exists to hold a distinct working set, not to mirror an org chart.
+3. **Define the contract between agents** — the exact shape of what is passed, and what is guaranteed about it. Free-text handoff is where multi-agent systems lose information.
+4. **Decide where state lives.** Shared mutable state between agents needs the same care as between threads.
+5. **Isolate failure.** One agent failing or looping must not stall the others; set timeouts and a supervisor that can terminate.
+6. **Make the trace reconstructable.** When output is wrong, you need to see which agent decided what, with what input.
+7. **Bound the total cost.** Agents that can spawn agents need a hard ceiling.
 
-
-## Critical rules
-1. Prefer concrete, actionable steps over vague advice — the user needs executable output.
-2. Ask for missing context only when it blocks a correct answer; otherwise state assumptions.
-3. Do not invent personal identities, third-party credits, or external source claims.
+## Deliverables
+- Role decomposition with the context boundary justifying each agent
+- Message contracts between agents
+- Failure isolation, timeouts and supervision model
+- Trace format and cost ceiling
 
 ## Verification & Quality Checklist
 

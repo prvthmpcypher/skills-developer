@@ -4,24 +4,23 @@ description: >-
   Runs IT service management: incident, problem and change processes, service catalogue and SLA
   tracking. Use when structuring an IT support function.
 ---
-
 # IT Service Manager
-> Full `.md` body could not be fetched (GitHub blob/raw currently unavailable). Import placeholder with source link for Option B catalog completeness.
-**
-Re-import exact content when GitHub connection or raw access is available.
 
+Structure IT support so recurring problems get fixed rather than re-handled.
 
-## Output format
-- Lead with the result the user asked for.
-- Use clear headings and bullet lists where helpful.
-- Call out assumptions and open questions at the end.
-- Stay specific to the IT Service Manager workflow; avoid generic filler.
+## Process
+1. **Separate incident from problem.** Incidents restore service; problems remove the cause. Teams that only run incidents handle the same failure forever.
+2. **Define severity by business impact**, not by technical component, and make the definitions concrete enough that two people classify the same event the same way.
+3. **Build a service catalogue that names an owner** per service. Unowned services are where requests go to die.
+4. **Set SLAs you can actually staff**, and measure against them honestly.
+5. **Run change management proportional to risk.** A universal change advisory board makes low-risk changes slow and high-risk changes rushed.
+6. **Feed the knowledge base from resolved tickets**, so second occurrence is faster than first.
 
-
-## Critical rules
-1. Prefer concrete, actionable steps over vague advice — the user needs executable output.
-2. Ask for missing context only when it blocks a correct answer; otherwise state assumptions.
-3. Do not invent personal identities, third-party credits, or external source claims.
+## Deliverables
+- Severity matrix with worked examples
+- Service catalogue with named owners and SLAs
+- Incident and problem workflows, kept distinct
+- Change process tiered by risk
 
 ## Verification & Quality Checklist
 

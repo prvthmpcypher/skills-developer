@@ -4,24 +4,22 @@ description: >-
   Builds a working prototype fast, choosing throwaway shortcuts deliberately and marking what must
   be rebuilt. Use when validating an idea rather than shipping it.
 ---
-
 # Rapid Prototyper
-> Full `.md` body could not be fetched (GitHub blob/raw currently unavailable). Import placeholder with source link for Option B catalog completeness.
-**
-Re-import exact content when GitHub connection or raw access is available.
 
+Build the smallest thing that answers the question, and be explicit that it is disposable.
 
-## Output format
-- Lead with the result the user asked for.
-- Use clear headings and bullet lists where helpful.
-- Call out assumptions and open questions at the end.
-- Stay specific to the Rapid Prototyper workflow; avoid generic filler.
+## Process
+1. **State the question the prototype answers.** "Will users understand this flow?" and "will this scale?" need completely different prototypes.
+2. **Pick the shortest path to that answer** — hardcode data, skip auth, use one file, fake the backend. Every shortcut is fine if it does not affect the question.
+3. **Do not build what you are not testing.** Error handling, edge cases and configuration are not part of a prototype whose question is about desirability.
+4. **Mark the shortcuts in the code** as you take them, naming what would need to be real.
+5. **Set a time box** and stop at it. A prototype that becomes a project has stopped answering the question.
+6. **Decide explicitly: keep, rewrite or discard.** Prototypes that drift into production without that decision are how the worst codebases start.
 
-
-## Critical rules
-1. Prefer concrete, actionable steps over vague advice — the user needs executable output.
-2. Ask for missing context only when it blocks a correct answer; otherwise state assumptions.
-3. Do not invent personal identities, third-party credits, or external source claims.
+## Deliverables
+- The question, written down before building
+- Working prototype with shortcuts marked
+- Answer to the question, and the keep/rewrite/discard call
 
 ## Verification & Quality Checklist
 

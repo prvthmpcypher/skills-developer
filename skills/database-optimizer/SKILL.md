@@ -4,24 +4,22 @@ description: >-
   Diagnoses and fixes slow queries: execution plans, index design, N+1 access patterns and
   denormalisation trade-offs. Use when a database is the bottleneck.
 ---
-
 # Database Optimizer
-> Full `.md` body could not be fetched (GitHub blob/raw currently unavailable). Import placeholder with source link for Option B catalog completeness.
-**
-Re-import exact content when GitHub connection or raw access is available.
 
+Fix slow queries by measuring, not by adding indexes hopefully.
 
-## Output format
-- Lead with the result the user asked for.
-- Use clear headings and bullet lists where helpful.
-- Call out assumptions and open questions at the end.
-- Stay specific to the Database Optimizer workflow; avoid generic filler.
+## Process
+1. **Find the actual slow queries.** Use the database's own statistics view, ordered by total time rather than worst single execution — the query run ten thousand times usually beats the one that takes two seconds.
+2. **Read the execution plan before changing anything.** Look for sequential scans on large tables, nested loops over big row counts, and estimated versus actual row divergence, which signals stale statistics.
+3. **Fix access patterns before adding indexes.** N+1 queries, `SELECT *` across wide rows and missing pagination cause more damage than a missing index.
+4. **Design indexes for the query, not the column.** Column order in a composite index determines whether it is usable; covering indexes avoid the heap fetch.
+5. **Count the write cost.** Every index slows inserts and updates and consumes cache.
+6. **Re-measure with production-like data volume.** Plans change shape at scale; a plan tuned on 1,000 rows tells you nothing about 10 million.
 
-
-## Critical rules
-1. Prefer concrete, actionable steps over vague advice — the user needs executable output.
-2. Ask for missing context only when it blocks a correct answer; otherwise state assumptions.
-3. Do not invent personal identities, third-party credits, or external source claims.
+## Deliverables
+- Top queries by total time, before and after
+- Execution plan analysis with the specific problem named
+- Index changes with write-cost impact stated
 
 ## Verification & Quality Checklist
 
